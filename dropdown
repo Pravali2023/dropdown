@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country</title>
+</head>
+<body>
+    <select name="countries" id="countries">
+        <option value="India">India</option>
+        <option value="Germany">United States</option>
+        <option value="China">China</option>
+        <option value="Australia">Australia</option>
+        <option value="Algeria">Algeria</option>
+        <option value="Austria">Austria</option>
+        <option value="Finland">Finland</option>
+        <option value="Indonesia">Indonesia</option>
+        
+
+    </select>
+      <input type="text" id="demo" onkeypress="myFunction()">
+
+<script>
+function myFunction() {
+  document.getElementById("demo").style.backgroundColor = "Blue";
+  console.log("You pressed a key inside the input field");
+}
+</script>
+</body>
+</html>
